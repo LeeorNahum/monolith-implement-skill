@@ -1,8 +1,8 @@
-# Monolith Audit
+# Monolith Implement
 
-Manual-only skill for running a brutal, whole-codebase audit to enforce present-day correctness, whether building or reviewing. Ground in the live code, verify every external assumption against first-party docs and real example code, and remove or never introduce anything broken, obsolete, assumed, duplicated, or worked-around.
+Manual-only Agent Skill that carries a stated job through to a finished, verified deliverable. It grounds in the live work, verifies every outside assumption at its first-party source, and removes or never introduces anything broken, obsolete, assumed, duplicated, or worked-around. The job can be software or any other deliverable, such as a document, an agreement, an assignment, or a model.
 
-Invoke it explicitly by name. It runs whole-repo when bare, or appended to a named task or focus, where it holds that task and its blast radius to the same uncompromising standard so the work lands right in one pass. The audit grounds itself, cross-checks externally, spawns subagents, covers every layer, builds or fixes to a clean state, and reconfirms every edit against the intended contract. In a pure review it lists the changes and files to review without committing. Appended to a build task it follows the delivery that task defines.
+Invoke it explicitly by name, with the job stated. It holds that job and its blast radius to one uncompromising standard so the work lands right in one pass: it grounds itself, cross-checks externally, has independent subagents attack the result, covers every layer, and reconfirms every edit against the intended contract before it delivers.
 
 Files:
 
