@@ -3,7 +3,7 @@ name: "monolith-implement"
 description: "Carry a stated job through to a finished, verified deliverable held to rigorous, present-day correctness: ground in the live work, verify every external assumption at the source, and eliminate or never introduce anything broken, obsolete, duplicated, incoherent, or worked-around. The job is whatever the user states, such as a feature, a fix, a subsystem, a document, an agreement, an assignment, a model, or a whole body of work, and it holds that job and everything in its blast radius to the same standard so the work is done right in one pass rather than patched and checked later. It works until the deliverable is ready for the people it is for, verifying itself along the way against up-to-date, authoritative references. This skill is strictly manual and must only be invoked by name, Monolith Implement."
 metadata:
   author: "Leeor Nahum"
-  version: "2.2.1"
+  version: "2.3.0"
 ---
 
 # Monolith Implement
@@ -23,6 +23,8 @@ This is intensive and uncompromising. No corner is skipped, no layer is assumed 
 The user states the job. It may be as wide as a whole body of work or as narrow as one feature, fix, section, clause, or part. When neither the invocation nor the conversation before it states a job, or the job is too vague to tell what finished means, ask what is wanted before starting.
 
 An invocation covers every deliverable produced for the stated job, including work handed to a subagent, which is told to follow this skill by name. When later work in the same thread may or may not belong to the job, ask.
+
+Whoever builds a piece of work owns it and makes every edit to it, follow-ups included, whether that is this session, a subagent it spawned, or another session. A change the user asks for goes to that builder.
 
 Apply this rigor to the job and everything in its blast radius, whatever depends on it and whatever it depends on, still judged against the whole work's current intentionality. Fix whatever the job cannot be correct without, wherever it sits. Report everything else you find wrong, and leave it unchanged. Ground and verify before you build, hold everything new to the same standard as the work it joins, and check as you go rather than patching first and cleaning up later. Doing the job this way means doing it right in one pass.
 
